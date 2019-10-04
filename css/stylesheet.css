@@ -1,0 +1,167 @@
+body, html {
+    font-size: small;
+}
+
+body {
+    margin: 12px;
+    font-family: Arial, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+    display: block;
+    padding: 10px;
+    margin: 0;
+}
+
+li, #sign-in a {
+    cursor: default;
+    text-decoration: none;
+    color: #fff;
+}
+
+a {
+    color: #222;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+a:hover {
+    color: #444;
+    text-decoration: underline;
+}
+
+footer {
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    border-top: 1px solid #dfe1ef;
+}
+
+footer, a{
+    color: #5f6368; 
+}
+
+#google-apps {
+    height: 28px;
+    width: 28px;
+    margin-top: -2px;
+}
+
+#apps-icon {
+    margin: 0;
+    padding: 0;
+    width: 18px;
+    height: 18px;
+}
+
+#apps-icon:hover .apps-icon-solobox {
+    background-color: #222;
+}
+
+#sign-in {
+    border: 1px solid #4285f4;
+    background-color: #4285f4;
+    font-weight: bold;
+    outline: none;
+    line-height: 28px;
+    padding: 0 12px;
+    margin-top: 3px;
+    border-radius: 2px;
+}
+
+#search-area {
+    padding-top: 19%;
+    text-align: center;
+}
+
+#goo-img {
+    margin-bottom: 30px;
+}
+
+#search-bar {
+    background: #fff;
+    border: 1px solid #dfe1ef;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 482px;
+    text-align: center;
+}
+
+#search-bar:hover {
+    box-shadow: 0 1px 2px #999;
+}
+
+#search-icon {
+    float: left;
+    margin: 10px 5px 0 20px;
+}
+
+#searchin {
+    border: none;
+    background-color: transparent;
+    width: 90%;
+    height: 30px;
+    font-size: 18px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.nav1 {
+    float: left;
+    margin: 0 10px 0 10px;
+    padding: 0;
+    height: 28px;
+}
+
+.nav2 {
+    float: right;
+    margin: 0 10px 0 10px;
+    padding: 0;
+    height: 28px;
+}
+
+.apps-icon-solobox {
+    float: left;
+    padding: 0;
+    margin: 1px;
+    width: 4px;
+    height: 4px;
+    background-color: #666;
+}
+
+.s-l-btns {
+    height: 36px;
+    line-height: 27px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5f6368;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+}
+
+.s-l-btns:hover {
+    border-color: #dfe1ef;
+    color: #222;
+}
