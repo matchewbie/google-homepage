@@ -121,6 +121,8 @@ footer, a{
     font-size: 18px;
     padding: 20px;
     margin: 0 auto;
+    outline: none;
+    -webkit-appearance: none;
 }
 
 .nav1 {
