@@ -6,26 +6,61 @@
     </head>
 
     <body>
-        <div>
-            <div>About</div>
-            <div>Store</div>
-            <div>Gmail</div>
-            <div>Images</div>
-            <div>Google Apps</div>
-            <div>Sign In</div>
+        <header>
+            <ul class="nav1">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Store</a></li>
+            </ul>
+            <ul class="nav2">
+                <li><a href="#">Gmail</a></li>
+                <li><a href="#">Images</a></li>
+                <li id="google-apps">
+                    <a href="#">
+                        <div id="apps-icon">
+                            <div class="apps-icon-solobox"></div>
+                            <div class="apps-icon-solobox"></div>
+                            <div class="apps-icon-solobox"></div>
+                            <div class="apps-icon-solobox"></div>
+                            <div class="apps-icon-solobox"></div>
+                            <div class="apps-icon-solobox"></div>
+                            <div class="apps-icon-solobox"></div>
+                            <div class="apps-icon-solobox"></div>
+                            <div class="apps-icon-solobox"></div>
+                        </div>
+                    </a>
+                </li>
+                <li id="sign-in"><a href="#">Sign in</a></li>
+            </ul>
+        </header>
+
+        <div id="search-area">
+            <div id="goo-img">
+                <img alt="Google" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+            </div>
+
+            <div id="search-bar">
+                <img id="search-icon" src="img/lens.png">
+                <input id="searchin" type="search" autocapitalize="off" autocomplete="off" autocorrect="off" spellcheck="false" title="Search" value="">
+            </div>
+
+            <div style="padding-left: 15px">
+                <input class="s-l-btns" type="submit" value="Google Search">
+
+                <input class="s-l-btns" type="submit" value="I'm Feeling Lucky">
+            </div>
         </div>
-        <img alt="Google" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
-        <input type="text" autocapitalize="off" autocomplete="off" autocorrect="off" spellcheck="false" title="Search" value="">
-        <input type="submit" value="Google Search">
-        <input type="submit" value="I'm Feeling Lucky">
-        <div>Easily set an expiration date for your data. Turn on Auto-delete</div>
-        <div>
-            <div>Advertising</div>
-            <div>Business</div>
-            <div>How Search works</div>
-            <div>Privacy</div>
-            <div>Terms</div>
-            <div>Settings</div>
-        </div>
+
+        <footer>
+            <ul class="nav1">
+                <li><a href="#">Advertising</a></li>
+                <li><a href="#">Business</a></li>
+                <li><a href="#">How Search works</a></li>
+            </ul>
+            <ul class="nav2">
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Settings</a></li>
+            </ul>
+        </footer>
     </body>
 </html>
